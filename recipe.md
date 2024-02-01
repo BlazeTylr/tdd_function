@@ -27,7 +27,6 @@ def task_todo(string):
 _Make a list of examples of what the function will take and return._
 
 ```python
-# EXAMPLE
 
 """
 It will take a string and will Return True if #TODO is present in the string or it will return False
@@ -61,12 +60,4 @@ def test_task_todo_no_todo():
 from lib.extract_uppercase import *
 
 """
-Given a lower and an uppercase word
-It returns a list with the uppercase word
-"""
-def test_extract_uppercase_with_upper_then_lower():
-    result = extract_uppercase("hello WORLD")
-    assert result == ["WORLD"]
 ```
-
-Ensure all test function names are unique, otherwise pytest will ignore them!
